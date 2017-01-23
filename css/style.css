@@ -1,0 +1,214 @@
+body {
+  height: auto;
+  width: 100%;
+  font-family: 'printdashed';
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.flex-container {
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.contdiv{
+  background-color: white;
+  opacity: 0.8;
+}
+
+.divisas{
+  font-family: basictitlefont;
+  font-size: 40px;
+  height: 600px;
+  overflow: hidden;
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cabdivisas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.menu-padding {
+    padding-top:40px;
+}
+
+.flex-item.primlinha{
+  order: 0;
+  flex-basis: auto;
+  width: 100%;
+  padding: 1%;
+}
+
+#portfolio .cabdivisas{
+  margin-top: 410px;
+  font-size: 1.8em;
+  padding-left: 140px;
+  font-family: 'printdashed';
+}
+
+#what:hover{
+  font-size: 2.3em;
+}
+
+#prints, #arts, #presents, #artsw, #tattos{
+  text-decoration: none;
+  border: none;
+}
+
+#prints:hover, #arts:hover, #presents:hover, #artsw:hover, #tattos:hover{
+  font-size: 4.5em;
+}
+
+#principal{
+  background-image: url("../images/ESTAMPA 1.jpg");
+  background-size: cover;
+  margin-top: -50px;
+  height: 800px;
+  max-width: 100%;
+}
+
+#triangulo{
+  background-image: url("../images/ESTAMPA 2.jpg");
+  background-size: cover;
+  height: 800px;
+}
+
+#portfolio{
+  background-image: url("../images/ESTAMPA 3.jpg");
+  background-size: cover;
+  height: 800px;
+}
+
+#valores{
+  background-image: url("../images/ESTAMPA 4.jpg");
+  background-size: cover;
+  height: 800px;
+}
+
+#girls{
+  background-image: url("../images/ESTAMPA 5.jpg");
+  background-size: cover;
+  height: 800px;
+}
+
+#logo{
+  width: 40%;
+  height: auto;
+  opacity: 0.9;
+  background-color: white;
+}
+
+#primeiraparte{
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+#cabecalho {
+    font-family: 'printdashed';
+    font-size: 2.5em;
+    font: black;
+    padding: 0;
+    max-width: 100%;
+    opacity: 0.9;
+    background-color: white;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+#cabecalho ul {
+  max-width: 100%;
+  text-decoration: none;
+  padding: 0;
+}
+
+#cabecalho ul li {
+  display: inline;
+  padding: 0 4% 0 4%;
+  opacity: 0.8;
+}
+
+#cabecalho ul li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#arte{
+  width: 35%;
+  height: auto;
+  padding-top: 260px;
+  margin-left: 700px;
+}
+
+#arte a{
+  width: 100%;
+  font-size: 3.5em;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+#minilogo{
+  height: 50px;
+  width: 30px;
+}
+
+div button{
+  text-decoration: none;
+  background-color: white;
+  font-size: 2.5em;
+}
+
+div.dashed{
+  font-family: 'printdashed';
+  padding: 0.5%;
+  margin: 0;
+  opacity: 0.9;
+  background-color: white;
+}
+
+div.solid{
+  font-family: 'basictitlefont';
+  padding: 0.5%;
+  margin: 0;
+  opacity: 0.9;
+  background-color: white;
+}
+
+@font-face {
+  font-family: 'basictitlefont';
+  src: url('../fonts/basictitlefont.ttf');
+}
+
+@font-face {
+  font-family: 'printclear';
+  src: url('../fonts/printclear.TTF');
+}
+
+@font-face {
+  font-family: 'printdashed';
+  src: url('../fonts/printdashed.TTF');
+}
+
+.thumbnail {margin-bottom:6px;}
+
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+  margin-top:10%;
+  width:5%;
+}
+
+.navbar-fixed-top{
+  margin-top: 0px !important;
+}
