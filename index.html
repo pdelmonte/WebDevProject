@@ -15,17 +15,14 @@
       crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css" title="style">
+    <link rel="stylesheet" href="css/style02.css" title="style">
   </head>
 
-  <body class="container-fluid">
-    <section>
-      <div id="primeiraparte">
-        <img src="images/logo3.png" alt="Fuck!" id="logo">
-      </div>
-    </section>
-
-    <section id="principal">
+  <body>
+    <div class="text-center" id="logocontainer">
+      <img src="images/logo3.png" alt="Fuck!" id="logo">
+    </div>
+    <div>
       <nav id="cabecalho" class="menu navbar">
         <ul class="">
           <li class=""><a href="#primeiraparte"><img src="images/Marina-05.png" alt="Fuck 2" class="" id="minilogo"></a></li>
@@ -36,9 +33,19 @@
           <li class=""><a href="#contatos">HOW?</a></li>
         </ul>
       </nav>
-    </section>
-
-    <section id="triangulo">
+    </div>
+    <div class="container-fluid" id="principal">
+      <div id="intro">
+        <p class="text-right">MIND MOTION - o movimento da mente coletiva e criativa</p>
+        <p class="text-right">Estudio de criacao</p>
+        <p class="text-right">Identificar tendencias, novidades, inovacoes e novas ideias</p>
+        <p class="text-right">Pesquisa de tendencia e comportamento do consumidor</p>
+        <p class="text-right">Criar conteudos inovadores e informativos</p>
+      </div>
+      <div id="espaco1"></div>
+      <div id="frase">
+        <p>Our MIND in MOTION</p>
+      </div>
         <div id="arte" class="row">
           <div class="col-12 col-md-12 col-sm-12">
             <a title="Image 1" class="thumbnail img-responsive" id="image-1">PRINTS</a>
@@ -117,42 +124,49 @@
             </div>
           </div>
         </div>
-    </section>
-
-    <section id="portfolio" class="divisas">
+      <div class="espaco"></div>
       <h2 id="what" class="cabdivisas">WHAT?</h2>
       <div class="contdiv" id="produto">
       </div>
-    </section>
-
-    <section id="valores" class="divisas">
+      <div class="espaco"></div>
+      <div id="espaco2"></div>
+      <div class="flex-container boxwhy">
+          <div class="flex-item btnwhy">VISAO</div>
+          <div class="flex-item btnwhy">MISSAO</div>
+          <div class="flex-item btnwhy">VALOR</div>
+      </div>
       <h2 class="cabdivisas"></h2>
-      <div class="contdiv" id="">
-
-      </div>
-    </section>
-
-    <section id="girls" class="divisas">
+      <div id="espaco3"></div>
       <h2 class="cabdivisas">Who?</h2>
-      <div class="contdiv" id="meninas">
-
+      <div class="flex-container mugbox">
+        <div class="mugctn thumbnail flex-item"><img src="./images/Marina.jpg" class="img-responsive mug" alt="">Marina</div>
+        <div class="mugctn thumbnail flex-item"><img src="./images/Luiza.jpg" class="img-responsive mug" alt="">Luiza</div>
       </div>
-    </section>
 
-    <section id="location" class="divisas">
       <h2 class="cabdivisas">Where?</h2>
-      <div class="contdiv" id="lugares">
-          Barcelona, Tel Aviv
-      </div>
-    </section>
+      <div class="" id="lugares">
+         <div class="flex-container mugbox">
+            <div class="mugctn thumbnail flex-item">TEL-AVIV<img src="./images/Telaviv.jpeg" class="img-responsive mug" alt=""></div>
+            <div class="mugctn thumbnail flex-item">BARCELONA<img src="./images/Barcelona.jpeg" class="img-responsive mug" alt=""></div>
+         </div>
+       </div>
 
-    <section id="contatos"class="divisas">
       <h2 class="cabdivisas">How?</h2>
-      <div class="contdiv">
-          Contatos
-      </div>
-    </section>
-
+      <form id="contact">
+        <div class="container">
+          <div class="head">
+            <h2 id="contactheader">Contact Us</h2>
+          </div>
+          <input type="text" name="name" placeholder="Name" /><br />
+          <input type="email" name="email" placeholder="Email" /><br />
+          <textarea type="text" name="message" placeholder="Message"></textarea><br />
+          <div class="message">Message Sent</div>
+          <button id="submit" type="submit">
+            Send!
+          </button>
+        </div>
+      </form>
+    </div>
   </body>
 
   <script src="js/script.js"></script>
