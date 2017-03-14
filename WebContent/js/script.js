@@ -48,7 +48,7 @@ function scroll() {
   	$("#modal-gallery").modal("show");
   });
 
-  $(function() {
+/*  $(function() {
     // validate
     $("#contact").validate({
         // Set the validation rules
@@ -73,6 +73,6 @@ function scroll() {
            $(".message").fadeOut(4500);
         }
     });
-  });
+  });*/
 
 });
